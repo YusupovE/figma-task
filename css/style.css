@@ -43,11 +43,12 @@ li img {
   color: black;
   font-weight: 700;
 }
-section {
+.first-section {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
-  column-gap: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /* column-gap: 160px; */
 }
 
 .second-pic img {
@@ -97,7 +98,7 @@ section {
 .middle-below > div {
   display: flex;
   justify-content: space-between;
-  column-gap: 15px;
+  column-gap: 20px;
 }
 
 .middle-below h2 {
@@ -189,6 +190,10 @@ section {
 }
 .fourth-part {
   display: flex;
+  column-gap: 60px;
+  margin-right: 70px;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .icon-card ul {
@@ -216,6 +221,56 @@ li {
   padding: 10px;
 }
 
+/* fifth-part */
+.fifth-part{
+  display: flex;
+  /* flex-direction: column; */
+background-color: #171642;
+column-gap: 55px;
+}
+
+/* .umumi {
+ display: flex;
+ flex-direction: row;
+} */
+.main-div-left {
+  display: flex;
+  
+
+  background-color: #71a894;
+  /* flex: ; */
+}
+
+/* .main-div-left p {
+  flex-direction: column;
+} */
+
+.main-div-right {
+
+  background-color: #b9b8f0;
+ /* flex: 2; */
+  /* display: flex; */
+}
+
+.commit-part {
+  display: flex;
+   /* flex-flow: row wrap; */
+}
+
+.p-class {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
 .below {
   display: flex;
   justify-content: center;
@@ -228,7 +283,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 
 .below-div div {
