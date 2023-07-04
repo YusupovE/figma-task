@@ -179,8 +179,8 @@ section .fourth-part-icons {
 
 .head-icon p {
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
-  line-height: 1.3em;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 .fourth-part-icons h2 {
@@ -190,7 +190,7 @@ section .fourth-part-icons {
 }
 .fourth-part {
   display: flex;
-  column-gap: 60px;
+  column-gap: 50px;
   margin-right: 70px;
   margin-top: 60px;
   margin-bottom: 50px;
@@ -223,7 +223,7 @@ li {
 
 /* FIFTH-PART */
 .fifth-part {
-  column-gap: 160px;
+  column-gap: 210px;
   display: flex;
 }
 
@@ -266,7 +266,7 @@ li {
   padding: 10px 15px 15px 15px;
 }
 .main-div-right h3 {
-  font-size: 1.8em;
+  font-size: 2.5em;
   font-weight: bolder;
   padding: 10px;
 }
@@ -299,6 +299,99 @@ li {
   border-radius: 16px;
   padding: 6px 40px 6px 40px;
 }
+
+
+.sixth-part-main {
+  display: flex;
+  margin-top: 90px;
+ column-gap: 40px;
+}
+
+.sixth-div-left {
+  display: flex;
+  flex-direction: column;
+ /* flex: 1; */
+}
+
+
+.sixth-div-right {
+  display: flex;
+  flex-direction: column;
+ flex-basis: 100%;
+}
+
+
+.card-six img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  
+}
+
+.card-six li {
+  padding:  8px;
+}
+
+
+.left-top-side p{
+  font-size: 1.01em;
+  padding: 10px;
+}
+
+.left-top-side h3 {
+  font-size: 1.7em;
+  padding: 10px;
+  font-weight: bolder;
+}
+/* .sixth-div {
+  display: flex;
+} */
+.right-top {
+ 
+  border: 4px solid #303031;
+  border-radius: 16px;
+  /* flex-basis: 100%; */
+ 
+
+}
+
+
+.right-top h3 {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+
+.right-top p {
+  font-size: 0.9em;
+
+}
+
+
+.sixth-commit-part {
+  border: 4px solid #71A894;
+  border-radius: 16px;
+ margin-top: 20px;
+
+  /* flex: 1; */
+}
+
+.card-six {
+  border: 4px solid #303031;
+  border-radius: 16px;
+  /* flex: 1; */
+
+}
+
+
+
+.card-icons {
+  display: flex;
+  gap: 20px;
+}
+
+
+
 
 .below {
   display: flex;
@@ -352,7 +445,7 @@ li {
 }
 
 .below-div div p {
-  width: 70%;
+  /* width: 70%; */
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 0.7em;
   line-height: 1.3em;
