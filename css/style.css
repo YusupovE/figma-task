@@ -159,17 +159,17 @@ li img {
   height: 52px;
 }
 
-   .head-icon {
-    flex: 2;
-   }
+.head-icon {
+  flex: 2;
+}
 
-   section .fourth-part-icons {
-    border-radius: 16px;
-    border: 4px solid #303031;
-    flex: 1;
-   }
+section .fourth-part-icons {
+  border-radius: 16px;
+  border: 4px solid #303031;
+  flex: 1;
+}
 
-.head-icon  h2 {
+.head-icon h2 {
   font-size: 2.1em;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -210,8 +210,8 @@ li {
   font-size: 1.2em;
 }
 
-.icon-card p{
-  font-size: 1.0em;
+.icon-card p {
+  font-size: 1em;
 }
 
 .icon-card img {
@@ -221,55 +221,84 @@ li {
   padding: 10px;
 }
 
-/* fifth-part */
-.fifth-part{
+/* FIFTH-PART */
+.fifth-part {
+  column-gap: 160px;
   display: flex;
-  /* flex-direction: column; */
-background-color: #171642;
-column-gap: 55px;
 }
 
-/* .umumi {
- display: flex;
- flex-direction: row;
-} */
 .main-div-left {
-  display: flex;
-  
-
-  background-color: #71a894;
-  /* flex: ; */
+  border: 4px solid #303031;
+  border-radius: 16px;
+  flex: 1;
 }
-
-/* .main-div-left p {
-  flex-direction: column;
-} */
 
 .main-div-right {
+  flex: 2;
+}
+.card-top {
+  display: flex;
+  align-items: center;
+}
 
-  background-color: #b9b8f0;
- /* flex: 2; */
-  /* display: flex; */
+.main-div-right div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-div-right img,
+.main-div-left img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.main-div-left div h3 {
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding: 10px 10px 10px 15px;
+}
+
+.main-div-left div p {
+  font-size: 0.9em;
+  font-weight: bolder;
+  padding: 10px 15px 15px 15px;
+}
+.main-div-right h3 {
+  font-size: 1.8em;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.main-div-right p {
+  font-size: 1.2em;
+  padding: 10px;
 }
 
 .commit-part {
   display: flex;
-   /* flex-flow: row wrap; */
+  padding: 10px 15px 15px 15px;
+  column-gap: 40px;
 }
 
-.p-class {
-  display: flex;
-  flex-direction: column;
+.card-text {
+  font-size: 0.9em;
+  padding: 10px 15px 15px 15px;
 }
 
+.btn {
+  text-align: center;
+  padding-bottom: 30px;
+}
 
-
-
-
-
-
-
-
+.btn a {
+  text-decoration: none;
+  background-color: #303031;
+  color: #fff;
+  border-radius: 16px;
+  padding: 6px 40px 6px 40px;
+}
 
 .below {
   display: flex;
