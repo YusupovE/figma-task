@@ -19,7 +19,7 @@ main {
   margin: 0 auto;
 }
 
-nav ul {
+.header-menu ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,11 +30,11 @@ nav ul {
   font-weight: 600;
 }
 
-.third {
+.third, 
+.footer-divider {
   margin-left: auto;
 }
 li img {
-  width: 68px;
   height: 40px;
 }
 
@@ -48,21 +48,20 @@ li img {
   flex-direction: row;
   margin-top: 60px;
   margin-bottom: 60px;
-  /* column-gap: 160px; */
+  column-gap: 60px;
 }
 
 .second-pic img {
   position: relative;
-  height: 370px;
-  z-index: 40;
-  margin-right: 100px;
+  height: 340px;
+  z-index: 4;
 }
 
 .vector img {
   position: absolute;
   top: 110px;
   right: 120px;
-  height: 400px;
+  height: 350px;
 }
 
 .middle h1 {
@@ -257,13 +256,12 @@ li {
 .main-div-left div h3 {
   font-size: 1.2em;
   font-weight: bolder;
-  padding: 10px 10px 10px 15px;
+  padding: 5px 10px 5px 15px;
 }
 
 .main-div-left div p {
   font-size: 0.9em;
-  font-weight: bolder;
-  padding: 10px 15px 15px 15px;
+  padding: 7px 15px 15px 0px;
 }
 .main-div-right h3 {
   font-size: 2.5em;
@@ -285,6 +283,14 @@ li {
 .card-text {
   font-size: 0.9em;
   padding: 10px 15px 15px 15px;
+}
+.commit-part {
+  font-size: 0.9em;
+  font-style: normal;
+}
+
+.card-top div p {
+  font-style: italic;
 }
 
 .btn {
@@ -334,6 +340,7 @@ li {
   flex: 4;
   padding: 10px;
 }
+
 .sixth-commit-part {
   flex: 3;
   text-align: center;
@@ -512,10 +519,6 @@ li {
 }
 
 .below-div-bt {
-  /* position: relative; */
-  /* bottom: 50px; */
-  /* top: 70px;
-  right: 40px; */
   display: flex;
   justify-content: space-between;
 }
@@ -534,21 +537,24 @@ li {
 
 /* Ashagi hisse */
 
+.last-part {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 80px;
+}
 .last-part h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  line-height: 40px;
-  /* width: 90%; */
+  font-weight: bolder;
+  line-height: 35px;
   margin-bottom: 20px;
 }
 
 .last-part p {
   font-size: 21px;
   line-height: 32px;
-  letter-spacing: -0.48px;
+  letter-spacing: 0.48px;
   color: #66645e;
-  /* width: 90%; */
 }
 
 .last-part a {
@@ -562,15 +568,22 @@ li {
 }
 
 .last-pic img {
-  position: relative;
-  width: 533px;
-  height: 270px;
-  z-index: 40;
-  margin-right: 100px;
+  height: 250px;
 }
 
 /* Footer part */
 
-.footer-part nav {
+ #contact-id{
+  color: #71a894;
+}
+
+.footer-part ul{
+  display: flex;
+  column-gap: 30px;
+  font-size: 16px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   margin-top: 50px;
+  font-weight: bolder;
+  position: relative;
+  
 }
