@@ -300,42 +300,83 @@ li {
   padding: 6px 40px 6px 40px;
 }
 
-
 .sixth-part-main {
   display: flex;
   margin-top: 90px;
- column-gap: 40px;
+  column-gap: 60px;
 }
 
 .sixth-div-left {
   display: flex;
   flex-direction: column;
- /* flex: 1; */
+  flex: 3;
 }
-
 
 .sixth-div-right {
   display: flex;
   flex-direction: column;
- /* flex-basis: 100%; */
- flex: 1;
- gap: 10px;
+  flex: 2;
+  gap: 10px;
+  margin-bottom: 80px;
 }
-
 
 .card-six img {
   width: 42px;
   height: 42px;
   border-radius: 50px;
-  
 }
 
 .card-six li {
-  padding:  8px;
+  padding: 8px;
 }
 
+.card-six {
+  flex: 4;
+  padding: 10px;
+}
+.sixth-commit-part {
+  flex: 3;
+  text-align: center;
+}
 
-.left-top-side p{
+.sixth-commit-part img {
+  margin: 15px;
+}
+
+.sixth-commit-part h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.sixth-commit-part p {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 45px;
+}
+
+.sixth-commit-part h5 {
+  margin-right: 90px;
+  padding-bottom: 25px;
+}
+
+.sixth-commit-part a {
+  text-decoration: none;
+  background-color: #303031;
+  font-size: 0.9em;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 16px;
+}
+
+.card-six li div h3 {
+  margin-left: 10px;
+  margin-bottom: 11px;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.left-top-side p {
   font-size: 1.01em;
   padding: 10px;
 }
@@ -345,55 +386,56 @@ li {
   padding: 10px;
   font-weight: bolder;
 }
-/* .sixth-div {
-  display: flex;
-} */
+
 .right-top {
- 
   border: 4px solid #303031;
   border-radius: 16px;
-  /* flex-basis: 100%; */
- 
-
+  display: flex;
 }
 
+.top-part {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.btn2 a {
+  border-radius: 16px;
+  background-color: #71a894;
+  text-decoration: none;
+  font-size: 0.5em;
+  font-weight: bolder;
+  color: #fff;
+  padding: 6px;
+  margin: 10px 40px 20px 0px;
+  display: flex;
+  flex: 3;
+}
 
 .right-top h3 {
   font-size: 1.1em;
   font-weight: bolder;
+  margin: 10px 35px 10px 15px;
 }
-
 
 .right-top p {
   font-size: 0.9em;
-
+  margin: 10px 35px 10px 15px;
 }
-
-
 .sixth-commit-part {
-  border: 4px solid #71A894;
+  border: 4px solid #71a894;
   border-radius: 16px;
- /* margin-top: 20px; */
-
-  /* flex: 1; */
 }
 
 .card-six {
   border: 4px solid #303031;
   border-radius: 16px;
-  /* flex: 1; */
-
 }
-
-
 
 .card-icons {
   display: flex;
   gap: 20px;
 }
-
-
-
 
 .below {
   display: flex;
@@ -408,18 +450,17 @@ li {
   flex-direction: row;
   justify-content: space-around;
   column-gap: 20px;
+  margin-bottom: 60px;
 }
 
 .below-div div {
   display: flex;
   flex-direction: column;
-  height: 170px;
+  height: 140px;
   border: 1px solid #f3f0ea;
   border-radius: 8px;
   background: #fff;
-  padding: 35px 0px 0px 25px;
-  right: 100px;
-  left: 100px;
+  padding: 35px 30px 10px 30px;
 }
 
 .below h2 {
@@ -447,17 +488,17 @@ li {
 }
 
 .below-div div p {
-  /* width: 70%; */
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 0.7em;
   line-height: 1.3em;
   margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .below-div-bt a {
   border-radius: 8px;
   background: #71a894;
-  padding: 3px 3px;
+  padding: 3px 5px;
   color: #fff;
   text-decoration: none;
   font-size: 8px;
@@ -471,8 +512,12 @@ li {
 }
 
 .below-div-bt {
-  position: relative;
-  bottom: 50px;
+  /* position: relative; */
+  /* bottom: 50px; */
+  /* top: 70px;
+  right: 40px; */
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Divider */
